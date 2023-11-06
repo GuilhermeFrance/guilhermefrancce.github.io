@@ -1,0 +1,433 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:wght@300&family=Gabarito:wght@400;600&family=Josefin+Sans:wght@200;400&family=Jost:wght@200;300;500&family=Oswald&family=Quicksand:wght@600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 100%;
+  background: rgb(9, 27, 42);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(25, 62, 75);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(23, 201, 255);
+  border-radius: 30px;
+  size: 10px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(9, 27, 42);
+  border-bottom: 1px solid rgb(34, 86, 104);
+}
+
+.logodev {
+  width: 10%;
+  justify-content: left;
+}
+
+nav a {
+  display: inline-block;
+  list-style: none;
+  margin: 30px 50px;
+  justify-content: center;
+  position: relative;
+}
+nav a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: rgb(23, 201, 255);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  transition: 0.3s;
+}
+nav a:hover::after {
+  width: 100%;
+}
+
+.itemcabecalho {
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: "Gabarito", cursive;
+  transition: 0.6s;
+}
+.itemcabecalho:hover {
+  color: rgb(23, 201, 255);
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: "Gabarito", cursive;
+}
+
+.principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+  color: white;
+  font-family: "Gabarito", cursive;
+  padding-top: 300px;
+  padding-bottom: 250px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+id {
+  color: rgb(23, 201, 255);
+}
+
+.p1 {
+  font-weight: 400px;
+  font-family: "Osworld", sans-serif;
+  margin-left: 273px;
+  margin-top: 90px;
+  color: rgb(230, 255, 255);
+  font-size: 90px;
+}
+
+.principal {
+  display: flex;
+}
+
+.txt1 {
+  margin-top: 80px;
+}
+
+.txt2 {
+  color: rgb(23, 201, 255);
+  font-size: 50px;
+}
+
+.francebutton {
+  color: white;
+}
+
+.francebutton:hover {
+  color: rgb(23, 201, 255);
+  transition: 1.5s;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  font-family: "Gabarito", cursive;
+  padding-top: 320px;
+  padding-left: 300px;
+  align-items: center;
+}
+.sobretxt {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 15px;
+}
+
+.sobresmim {
+  size: 30px;
+}
+
+.iconp {
+  width: 15%;
+}
+
+h2 {
+  color: white;
+}
+
+p1 {
+  font-size: 24px;
+  color: white;
+}
+
+.txt3 {
+  color: rgb(23, 201, 255);
+  font-family: "Gabarito", cursive;
+}
+.contato {
+  position: absolute;
+  font-family: "Gabarito", cursive;
+  color: white;
+  gap: 0px;
+  text-align: left;
+  font-size: 27px;
+  margin-top: 500px;
+  padding-left: 330px;
+}
+
+.txtctt {
+  font-size: 24px;
+}
+
+div a button {
+  transition: 0.5s;
+  font-size: 20px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 180px;
+  padding: 15px 10px;
+  text-align: center;
+  margin: 10px 10px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid rgb(23, 201, 255);
+  background: rgb(25, 62, 75);
+  cursor: pointer;
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  box-shadow: 0 16px 25px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.insta:hover {
+  box-shadow: 0 1px 5px 0 rgb(193, 53, 132), 0 5px 50px 0 rgb(193, 53, 132);
+  background-image: linear-gradient(
+    to bottom,
+    rebeccapurple,
+    rgb(193, 53, 132),
+    rgb(255, 220, 128)
+  );
+  border: 2px solid rgb(193, 53, 132);
+}
+
+.twitter:hover {
+  box-shadow: 0 1px 5px 0 rgba(20, 176, 197, 0.87),
+    0 5px 50px 0 rgba(44, 128, 207, 0.767);
+  background-color: rgb(17, 179, 219, 0.63);
+  border: 2px solid rgba(17, 121, 219, 0.63);
+}
+.buttons {
+  padding-top: 20px;
+  padding-left: 300px;
+  display: flex;
+  flex-direction: row;
+  font-family: "Josefin Sans", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+.botoes{
+
+  flex: 1 1 300px
+}
+
+.insta {
+  font-family: "Josefin Sans", sans-serif;
+  align-items: center;
+}
+
+.gith:hover {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.87), 0 5px 50px 0 rgba(0, 0, 0, 0.767);
+  background-color: black;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.ink:hover {
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.87),
+    0 5px 50px 0 rgba(18, 65, 117, 0.767);
+  background-color: rgb(0, 63, 91);
+  border: 2px solid rgb(0, 63, 91);
+}
+.contato1 {
+  padding-top: 10px;
+  color: rgb(23, 201, 255);
+}
+.imgi {
+  width: 15%;
+}
+.textott {
+  color: white;
+  margin-top: 1500px;
+}
+.projects {
+  padding-top: 500px;
+  padding-left: 330px;
+}
+
+.projetoos {
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.projetotitle {
+  color: rgb(23, 201, 255);
+}
+
+.mailme {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 20px;
+  background: rgba(7, 166, 224, 0.404);
+  width: 500px;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+mailme:focus{
+  border: 6px solid aqua;
+}
+.mail{
+  color: white;
+  font-size:24px; 
+  font-family: "Gabarito", cursive;
+  margin-left: 750px;
+  margin-top: 800px;
+  
+
+}
+div form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  margin: 30px;
+  
+}
+form label{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight:300;
+  margin-bottom: 2px;
+  gap:10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.mailsend{
+  transition: 0.5s;
+  font-size: 20px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 180px;
+  padding: 15px 10px;
+  text-align: center;
+  margin: 10px 10px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid rgb(23, 201, 255);
+  background: rgb(25, 62, 75);
+  cursor: pointer;
+  position: relative;
+  margin-left: 120px;
+
+}
+.mailsend:hover{
+
+  background-color: aqua;
+  color: rgb(0, 63, 91);
+  margin-left: 120px;
+  
+}
+
+  
+
+form input{
+
+  background:rgb(9, 27, 42);
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  transition: 0.4s;
+  color: white;
+}
+form input:focus{
+  border-radius: 0px;
+  background: rgb(25, 62, 75);
+}
+form textarea{
+
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+  background:rgb(9, 27, 42);
+  transition: 0.4s;
+  color: white;
+  font-size: 16px;
+  border-radius: 20px;
+  
+}
+form textarea:focus{
+  background: rgb(25, 62, 75);
+
+
+}
+input::placeholder{
+
+  color: rgba(255, 255, 255, 0.39);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+textarea::placeholder{
+
+  color: rgba(255, 255, 255, 0.39);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Cor de fundo do autocomplete */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px rgb(9, 27, 42) inset;
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+}
+label img{
+
+  width: 6%;
+}
+
+.caixamail {
+  padding-top: 0px;
+  display: flex;
+  padding-left: 700px;
+}
+
+#arroww{
+
+width: 70%;
+
+
+}
+#hideshow{
+  cursor: pointer;
+  background: rgb(9, 27, 42);
+  border: none;
+  width: 40px;
+}

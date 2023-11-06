@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Guilherme France - Programado Frontend HTML5, CSS3 e JavaScript</title>
+    <link rel="shortcut icon" href="images/deviicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <script defer src="js/email.js"></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div>
+            <img class="logodev" src="images/deviicon.png " alt="icondev">
+        </div>
+        <nav class=" cabecalho-menu">
+            <a class="itemcabecalho" href="#principal" Incio> INÍCIO </a>
+            <a class="itemcabecalho" href="#sobre">SOBRE</a>
+            <a class="itemcabecalho" href="#projects">PROJETOS</a>
+            <a class="itemcabecalho" href="#contato">CONTATO</a>
+        </nav>
+
+    </header>
+
+    <main id="principal" class="principal">
+        <h1 class="txt1"> Olá, meu nome é <a class="francebutton" href="#sobre">Guilherme France</a>. <br> <span
+                class="txt2">Frontend Developer</span> </h1>
+
+        <img class="fotoperfil" src="images/portperfil.png" alt="Guilherme France">
+    </main>
+    <section id="sobre" class="sobremim">
+        <img class="iconp" src="images/iconperson.png" alt="">
+        <div class="sobretxt">
+
+            <h2 class="sobresmim">Sobre mim: <h2>
+            <p1> Eu me chamo <span class="txt3">Guilherme France</span>, baiano, tenho 20 anos e resído
+            atualmente no município de <br> Vitória da Conquista - BA. Sou um entusiásta da tecnologia,
+            apaixonado por exatas e estudante <br> de programação. Estou matriculado no curso de Bacharelado
+            em <span class="txt3">Sistemas de Informação</span> no <br> Instituto Federal de Educação,
+            Ciência e Tecnologia da Bahia (IFBA).</p1>
+        </div>
+    </section>
+
+    <div id="projects" class="projects">
+        <div class="projetoos">
+            <h2 class="projetotitle">
+                • MEUS PROJETOS
+            </h2>
+
+            <div class="projects">
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contato" class="contato">
+        <div class="container">
+            <h2 class="contato1">• CONTATO</h2>
+            <p class="txtctt">Para que você possa me acompanhar e/ou me contatar:</p>
+            <div class="buttons">
+                <div class="botoes"></div>
+                <a href="https://github.com/GuilhermeFrance" target="_blank"> <button class="gith"> <span class="button"></span> <img class="imgi" src="images/github.png" alt="">⠀Git Hub</button></a>
+                <a href="https://instagram.com"  target="_blank"> <button class="insta"> <span class="button"></span> <img class="imgi"
+                            src="images/instagram.png" target="_blank" alt="">⠀Instagram </button> </a>
+                <a href="https://twitter.com/negofrance"  target="_blank"> <button class="twitter"> <span class="button"></span> <img
+                            class="imgi" src="images/x.png" target="_blank" alt=""> ⠀Twitter</button> </a>
+                <a href="https://instagram.com" target="_blank"> <button class="ink"> <span class="button"></span> <img class="imgi"
+                            src="images/in.png" alt="">⠀Linkedin </button> </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="mailss"><h2 class="mail">Se preferir, mande-me um email <a href="#caixaemail " ><button id="hideshow" type="button" onclick="mudaFoto()"><img id="arroww" src="images/arrowup.png" alt=""></a></button></h2></div>
+    <section class="caixamail">
+    <div class="mailme">
+        
+        
+        <form id="caixaemail" action="http://127.0.0.1:5500/index.html#principal" method="post">
+            <label for="name"> <img src="images/iconperson.png" alt=""> NOME</label>
+            <input type="text" name="name" placeholder="Digite seu nome.." autocomplete="off">
+            <label for="Email"><img src="images/mail.png" alt=""> EMAIL</label>
+            <input type="email" name="email" placeholder="Digite seu email.." autocomplete="on">
+            <textarea name="message" id="txttt" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+            <button class="mailsend" type="sumbit">ENVIAR</button>
+
+            <input type="hidden" name="accessKey" value="92b7a816-e54e-4e4a-bcf6-67dcec0445e6">
+
+          
+            
+    </form>
+    </div>
+    </section>
+    
+
+</body>
+
+</html>
