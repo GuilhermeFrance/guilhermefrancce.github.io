@@ -42,8 +42,9 @@ body {
 }
 
 .logodev {
-  width: 10%;
+  width: 7%;
   justify-content: left;
+  margin-left: 50px;
 }
 
 nav a {

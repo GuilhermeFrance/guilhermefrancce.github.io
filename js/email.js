@@ -11,7 +11,7 @@ btn.addEventListener('click', function(){
   
 })
 
-var click = "images/arrowdown.png"
+var click = "images/arrowdown.png" 
 var clickou = "images/arrowup.png"
 function mudaFoto(){
 document.getElementById('arroww').src = clickou
