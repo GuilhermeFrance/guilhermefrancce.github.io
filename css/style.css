@@ -30,6 +30,7 @@ body {
 }
 
 .cabecalho {
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -139,7 +140,7 @@ section {
   display: flex;
   flex-direction: row;
   font-family: "Gabarito", cursive;
-  padding-top: 320px;
+  padding-top: 200px;
   padding-left: 300px;
   align-items: center;
 }
@@ -151,7 +152,8 @@ section {
 }
 
 .sobresmim {
-  size: 30px;
+  size: 40px;
+  color: rgb(23, 201, 255);
 }
 
 .iconp {
@@ -268,7 +270,7 @@ div a button {
   margin-top: 1500px;
 }
 .projects {
-  padding-top: 500px;
+  padding-top: 250px;
   padding-left: 330px;
 }
 
@@ -282,7 +284,7 @@ div a button {
 }
 
 .mailme {
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -300,9 +302,14 @@ mailme:focus{
   color: white;
   font-size:24px; 
   font-family: "Gabarito", cursive;
-  margin-left: 750px;
-  margin-top: 800px;
+  margin-left: 780px;
+ 
   
+
+}
+.mailss{
+
+  padding-top: 710px;
 
 }
 div form {
@@ -343,7 +350,7 @@ form label{
   background: rgb(25, 62, 75);
   cursor: pointer;
   position: relative;
-  margin-left: 120px;
+  margin-left: 140px;
 
 }
 .mailsend:hover{
