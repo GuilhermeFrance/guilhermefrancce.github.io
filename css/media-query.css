@@ -1,6 +1,107 @@
-@charset "UTF-8";
+/* MEDIA QUERY */
 
-@media screen and (max-width: 450px){
+@charset "UTF-8";
+/*@media (max-width: 1024px),(min-width: 380px){
+
+  body{
+  width: 1024px;
   
-   
+  }
+  .sobretxt {
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    margin: auto;
+    justify-content: flex-start;
+  }
+  
+.fotoperfil {
+    display: none;
+    margin-bottom: 0px;
+  
 }
+.perfilmobile{
+  display: block;
+  width: 25%;
+  margin-left: 30px
+}
+.principal {
+  display: block;
+  margin-left: 50px;
+  color: white;
+  font-family: "Gabarito", cursive;
+  padding-top:  10px;
+  padding-bottom: 250px;
+  text-align: center;
+  max-width: 300px;
+}
+/*.logodev {
+  width: 8.5%; 
+  margin-left: 0px;*/
+  
+/*
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  margin: 30px -60px;
+  border: none;
+}
+.itemcabecalho{
+
+  display: none;
+}
+.contato{
+  display: none;
+}
+.mailss{
+  display: none;
+}
+#caixaemail{
+  display: none;
+}
+.top{
+  display: block;
+  margin-left: -24.5%;
+}
+.txt1 {
+  margin-top: 10px;
+}
+h1 {
+  font-size: 30px;
+}
+.txt2 {
+  color: rgb(23, 201, 255);
+  font-size: 30px;
+}
+/*
+.menu{
+ 
+  display: block;
+ 
+}*/
+/*.setamenu{
+  width: 35%;
+  display: none;
+  max-width: 100px;
+ 
+
+}
+section {
+  display: none;
+  flex-direction: row;
+  font-family: "Gabarito", cursive;
+  padding-top: 200px;
+  padding-left: 300px;
+  align-items: center;
+}
+.projects {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.space{
+  display: none;
+}
+*/

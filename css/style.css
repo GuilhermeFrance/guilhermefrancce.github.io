@@ -160,6 +160,9 @@ section {
 .iconp {
   width: 15%;
 }
+.perfilmobile{
+  display: none;
+}
 
 h2 {
   color: white;
@@ -443,4 +446,11 @@ width: 70%;
 .space{
 
   padding-top: 100px;
+}
+.menu{
+  display: none;
+}
+.setamenu{
+  width: 35%;
+  display: none;
 }
