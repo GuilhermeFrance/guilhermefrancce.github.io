@@ -1,10 +1,8 @@
-/* MEDIA QUERY */
-
 @charset "UTF-8";
-/*@media (max-width: 1024px),(min-width: 380px){
 
-  body{
+body{
   width: 1024px;
+  
   
   }
   .sobretxt {
@@ -44,10 +42,13 @@
 .cabecalho {
   display: flex;
   align-items: center;
+  position: relative;
   justify-content: flex-start;
-  gap: 30px;
-  margin: 30px -60px;
+  gap: 0px;
+  margin: 10px 20px;
   border: none;
+  width: 50%;
+
 }
 .itemcabecalho{
 
@@ -77,15 +78,17 @@ h1 {
   font-size: 30px;
 }
 
-.menu{
+.menuz{
  
   display: block;
  
 }
 .setamenu{
-  width: 35%;
-  display: none;
+  width: 60%;
   max-width: 100px;
+  margin-left: 10px;
+  display: block;
+
  
 
 }
@@ -103,5 +106,4 @@ section {
 }
 .space{
   display: none;
-}
 }
