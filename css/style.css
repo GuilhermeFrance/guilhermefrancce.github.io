@@ -181,7 +181,7 @@ p1 {
   gap: 0px;
   text-align: left;
   font-size: 27px;
-  margin-top: 500px;
+  margin-top: 210px;
   padding-left: 330px;
 }
 
@@ -310,7 +310,7 @@ mailme:focus{
 }
 .mailss{
 
-  padding-top: 710px;
+  padding-top: 420px;
 
 }
 div form {
@@ -438,4 +438,9 @@ width: 70%;
   background: rgb(9, 27, 42);
   border: none;
   width: 40px;
+}
+
+.space{
+
+  padding-top: 100px;
 }
